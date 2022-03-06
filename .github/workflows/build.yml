@@ -13,11 +13,8 @@ jobs:
         board:
           - nice_nano_v2
         shield:
-          - maypad
           - sofle_rgb_left
           - sofle_rgb_right
-          - lily58_left
-          - lily58_right
     steps:
       - name: Checkout
         uses: actions/checkout@v2
