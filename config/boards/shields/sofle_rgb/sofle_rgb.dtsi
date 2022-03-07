@@ -40,6 +40,7 @@
     a-gpios = <&pro_micro_a 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
     b-gpios = <&pro_micro_a 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
     resolution = <4>;
+    status = "disabled";
   };
 
   right_encoder: encoder_right {
@@ -48,6 +49,7 @@
     a-gpios = <&pro_micro_a 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
     b-gpios = <&pro_micro_a 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
     resolution = <4>;
+    status = "disabled";
   };
 
   sensors {
