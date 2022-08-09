@@ -3,3 +3,5 @@ config SHIELD_SOFLE_RGB_LEFT
 
 config SHIELD_SOFLE_RGB_RIGHT
        def_bool $(shields_list_contains,sofle_rgb_right)
+
+CONFIG_ZMK_IDLE_TIMEOUT=550000
