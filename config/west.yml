@@ -7,7 +7,7 @@ manifest:
   projects:
     - name: zmk
       remote: DiogoDoreto
-      revision: /tree/waterfowl-encoders
+      revision: waterfowl-encoders
       import: app/west.yml
   self:
     path: config
