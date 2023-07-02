@@ -29,7 +29,7 @@
                                    &none           &none     &trans  &none &trans &trans &kp KP_N0   &none      &tog 3      &tog 4
       >;
 
-      sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+      sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp RIGHT LEFT>;
     };
 	
 	mod_layer_a {
