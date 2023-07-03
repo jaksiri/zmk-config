@@ -24,7 +24,7 @@
                                   &kp CAPS  &kp LCMD  &kp LALT &kp SPACE &mo 1      &mo 2         &kp SPACE &kp SINGLE_QUOTE &kp MINUS &kp EQUAL
       >;
 
-      sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp RIGHT LEFT>;
+      sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp LEFT RIGHT>;
     };
 
     mod_layer {
